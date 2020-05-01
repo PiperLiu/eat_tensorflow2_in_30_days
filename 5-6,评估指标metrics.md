@@ -95,6 +95,7 @@ from tensorflow.keras import layers,models,losses,metrics
 def ks(y_true,y_pred):
     y_true = tf.reshape(y_true,(-1,))
     y_pred = tf.reshape(y_pred,(-1,))
+    tf.print(y_pred)
     length = tf.shape(y_true)[0]
     t = tf.math.top_k(y_pred,k = length,sorted = False)
     y_pred_sorted = tf.gather(y_pred,t.indices)

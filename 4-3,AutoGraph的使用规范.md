@@ -113,7 +113,7 @@ def inner_var():
     return(x)
 
 #执行将报错
-#inner_var()
+# inner_var()
 #inner_var()
 
 ```

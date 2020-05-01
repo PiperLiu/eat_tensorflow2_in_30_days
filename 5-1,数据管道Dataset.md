@@ -35,7 +35,7 @@ iris = datasets.load_iris()
 
 ds1 = tf.data.Dataset.from_tensor_slices((iris["data"],iris["target"]))
 for features,label in ds1.take(5):
-    print(features,label)
+    print(features, label)
 
 ```
 

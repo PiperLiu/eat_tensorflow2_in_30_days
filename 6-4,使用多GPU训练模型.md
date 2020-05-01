@@ -22,7 +22,7 @@ MirroredStrategy过程简介：
 * 当所有设备均更新本地变量后，进行下一轮训练（即该并行策略是同步的）。
 
 ```python
-%tensorflow_version 2.x
+#%tensorflow_version 2.x
 import tensorflow as tf
 print(tf.__version__)
 from tensorflow.keras import * 

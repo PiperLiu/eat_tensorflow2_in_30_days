@@ -27,7 +27,7 @@ https://zhuanlan.zhihu.com/p/68509398
 https://colab.research.google.com/drive/1r5dLoeJq5z01sU72BX2M5UiNSkuxsEFe
 
 ```python
-%tensorflow_version 2.x
+# %tensorflow_version 2.x
 import tensorflow as tf
 print(tf.__version__)
 ```

@@ -146,7 +146,7 @@ import datetime
 
 # 创建日志
 stamp = datetime.datetime.now().strftime("%Y%m%d-%H%M%S")
-logdir = './data/demomodule/%s' % stamp
+logdir = '.\\data\\demomodule\\%s' % stamp
 writer = tf.summary.create_file_writer(logdir)
 
 #开启autograph跟踪
